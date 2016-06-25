@@ -1,0 +1,33 @@
+.navb {
+  height: 100%;
+  background: linear-gradient(0deg, #E7E7E7, #b32400);
+}
+
+.mypagebaground{background-color: #f2f2f2;}
+
+.mypageul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mypageli a {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #C9223D;
+  -webkit-transition:  background 0.3s ease-in-out;
+  -moz-transition:  background 0.3s ease-in-out;
+  -ms-transition:  background 0.3s ease-in-out;
+  -o-transition:  background 0.3s ease-in-out;
+  transition:  background 0.3s ease-in-out;
+}
+
+/* Change the link color on hover */
+.mypageli a:hover {
+    background-color: #555;
+    color: white;
+}
